@@ -10,6 +10,7 @@ public class SecondCastingMain {
 
         CatParent catFromKitty = kitty;
         System.out.println("str12 " + catFromKitty.voice()); // some not avialable
+        //catFromKitty.some();
         System.out.println("str 13 " + kitty.voice() + " some " + kitty.some());
 
         CatParent catParent = new CatParent();
