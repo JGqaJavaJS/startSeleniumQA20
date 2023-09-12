@@ -3,18 +3,20 @@ package org.example;
 public class ExceptionsHWTryInTry {
 
     public static void main(String[] args) {
+        pause2();
         try {
             pause();
-            pause2();
+            //pause2();
         } catch (InterruptedException e) {
             System.out.println("Caught Interrupted Exception: " + e.getMessage());
         } finally {
             System.out.println("Pause function execution completed.");
         }
 
+        tryCatchFinally();
         try {
             throwsEx();
-            tryCatchFinally();
+          //  tryCatchFinally();
         } catch (Exception e) {
             System.out.println("Caught InterruptedException: " + e.getMessage());
         } finally {
