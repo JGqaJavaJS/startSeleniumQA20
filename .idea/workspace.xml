@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9554b571-a6ee-4df9-a1cd-b60797ed10e4" name="Changes" comment="changes from main merge" />
+    <list default="true" id="9554b571-a6ee-4df9-a1cd-b60797ed10e4" name="Changes" comment="dependencies" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,11 +32,20 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2UfVqnojJRK3G9sJLHJJZgh85op" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,11 +54,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "addTextGood",
+    "git-widget-placeholder": "main",
     "onboarding.tips.debug.path": "/Users/julia/Documents/java/qa20/startSeleniumQA20/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.OneMoreMainOOPLastLesson">
+    <configuration name="ExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ExceptionExample" />
+      <module name="startSeleniumQA20.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="startSeleniumQA20.main" />
@@ -63,8 +85,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OneMoreMainOOPLastLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.OneMoreMainOOPLastLesson" />
+      <module name="startSeleniumQA20.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OneMoreMainOOPLastLesson" />
+        <item itemvalue="Application.ExceptionExample" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -94,7 +131,31 @@
       <option name="project" value="LOCAL" />
       <updated>1693556178764</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="exceptions">
+      <option name="closed" value="true" />
+      <created>1694156768242</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694156768242</updated>
+    </task>
+    <task id="LOCAL-00004" summary="oop stop">
+      <option name="closed" value="true" />
+      <created>1694158168753</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694158168753</updated>
+    </task>
+    <task id="LOCAL-00005" summary="dependencies">
+      <option name="closed" value="true" />
+      <created>1694163638966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694163638966</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,7 +172,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add str duplicate" />
     <MESSAGE value="changes from main merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes from main merge" />
+    <MESSAGE value="exceptions" />
+    <MESSAGE value="oop stop" />
+    <MESSAGE value="dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="dependencies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
