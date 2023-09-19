@@ -63,7 +63,6 @@ public class SeleniumCssIcarro {
         // //label[@for='city']/span
         System.out.println(xpathLabel.getText());
 
-
         // Фильтр по месту среди соседей 13 page
 
         driver.quit();
