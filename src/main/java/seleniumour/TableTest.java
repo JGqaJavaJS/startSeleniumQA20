@@ -47,6 +47,20 @@ public class TableTest {
 
         System.out.println(driver.findElement(By.xpath("//table[@id='customers']//tr[3]//td[2]")).getText());
         System.out.println(driver.findElement(By.xpath("//table[@id='customers']//tr[3]//td[last()]")).getText());
+
+   // print amount of table columns
+
+    List<WebElement> listWithColumns = driver.findElements(By.xpath("//table[@id='customers']//tr[2]//td"));
+        System.out.println(listWithColumns.size() + " print amount of table columns");
+
+        // find locator for the row3
+    WebElement el3Row = driver.findElement(By.xpath("//table[@id='customers']//tr[3]"));
+
+// find locator for the last column
+
+        WebElement lastColumn = driver.findElement(By.cssSelector("#customers td:last-child"));
+        System.out.println("customers last - first element found " + lastColumn.getText());
+
     }
 
     @AfterClass
